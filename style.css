@@ -1,0 +1,201 @@
+
+html{scroll-behavior: smooth;}
+* {box-sizing: border-box;}
+body {
+    font-family: 'Roboto',Sans-Serif ;
+    margin:0%
+}
+
+/*Estilos generales*/
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25;}
+ul{list-style: none;}
+li{font-size: 1.25em;}
+
+/*Estilos para los botones*/
+button { 
+    font-size: 1.5;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba (0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: crimson;       
+}
+button:hover {
+    background-color: white;
+    color: crimson
+}
+
+/*Tamaño de los contenedores*/
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+/*Resaltar algo con color(span)*/
+.color-acentuado {
+    color: crimson;
+}
+
+/*Estilos del header*/
+header {
+    background-color: rgb(245, 245, 245);
+}
+header .logo {
+    margin:0%;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: crimson;
+    font-size: 1.6em;
+}
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+header a:hover {
+    color: crimson;
+}
+
+/*banner de inicio*/
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/Vladimir_10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/*Estilos de la biografía*/
+#biografia .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+/*Estilos de las cartas*/
+
+#que-necesitas {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+}
+#que-necesitas .container{
+    padding: 100px 15px;
+}
+
+#que-necesitas p{
+    display: none;
+}
+
+#que-necesitas h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#que-necesitas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin:30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/Vladimir_6.jpg");    
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/Vladimir_8.jpg");
+}
+
+.carta:last-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/Vladimir_9.jpg");
+}
+
+/*Estilos de la lista*/
+#lista .container{
+    text-align: center;
+    /*background-color: rgb(30, 30, 30);*/
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 15px 15px;
+    margin: 0;    
+}
+
+#lista ul{
+    margin: 0px;
+    padding: 10px;
+}
+
+#lista h3{
+    margin: 0px 2px;
+    padding: 0px 2px;
+    color: crimson;
+}
+
+#lista li{
+    margin:12px 15px;
+}
+
+/*Estilos del hero final*/
+#seguime {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/Vladimir_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
